@@ -8,8 +8,8 @@
     <?php }
     else
     { ?>
-    <p>Se connecter</p>
-    <p>S’inscrire</p>
+    <a href="login.php">Se connecter</a>
+    <a href="signup.php">S’inscrire</a>
     <?php } ?>
   </div>
 </header>

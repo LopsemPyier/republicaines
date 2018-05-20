@@ -1,8 +1,4 @@
-<?php
-session_start();
-
-$SESSION["connected"] = false;
-?>
+<?php include 'relationships/starting.php'; ?>
 
 <!DOCTYPE html>
 <html>

@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+<?php include 'relationships/starting.php'; ?>
 
 <!DOCTYPE html>
 <html>
