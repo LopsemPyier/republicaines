@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('fonts/AvenirLTSd-Book.otf') format("otf");
+}
+@font-face {
+    font-family: 'Avenir Next Condensed';
+    src: url('fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
+}
+
+.logos
+{
+  widht: 40px;
+  height: 40px;
+}
+
+#linkToLog, header h1, .soon
+{
+  font-family: "Avenir Book", sans-serif;
+}
+
+nav, footer
+{
+  font-family: "Avenir Next Condensed", Verdana, sans-serif;
+}
+
+footer p
+{
+  text-decoration: underline;
+}
