@@ -20,8 +20,14 @@
     <form method="post" action="functions/signup.php">
       <label for="email">Email :</label>
       <input type="email" name="email" id="email" required/>
+      <label for="pwd">Mot de passe :</label>
+      <input type="password" name="pwd" id="pwd" required/>
+      <label for="pseudo">Pseudo (facultatif) :</label>
+      <input type="text" name="pseudo" id="pseudo" />
 
-      
+      <input type="checkbox" name="news" id="news" />
+      <label for="news">Je souhaite recevoir des annonces par mails</label>
+
       <input type="submit" value="Créer le compte" />
     </form>
 

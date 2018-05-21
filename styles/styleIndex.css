@@ -22,9 +22,16 @@ footer a img
   margin: 0px 0px 0px 0px;
 }
 
-#linkToLog, header h1, .soon
+.linkToLog, #backHome, .soon
 {
   font-family: "Avenir Book", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.linkToLog
+{
+  color: #313131;
 }
 
 nav, footer
@@ -32,9 +39,15 @@ nav, footer
   font-family: "Avenir Next Condensed", Verdana, sans-serif;
 }
 
-footer p
+footer p:hover
 {
   text-decoration: underline;
+}
+
+footer p
+{
+  text-decoration: none;
+  color: #313131;
 }
 
 footer

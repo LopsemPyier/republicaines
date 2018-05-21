@@ -1,15 +1,13 @@
 <header id="top">
-  <h1>Républicain.e.s</h1>
-  <div id="linkToLog">
-    <?php if ($SESSION["connected"])
-    { ?>
-    <p>Mon compte</p>
-    <p>Se déconnecter</p>
-    <?php }
-    else
-    { ?>
-    <a href="login.php">Se connecter</a>
-    <a href="signup.php">S’inscrire</a>
-    <?php } ?>
-  </div>
+  <h1><a href="index.php" id="backHome">Républicain.e.s</a></h1>
+  <?php if ($SESSION["connected"])
+  { ?>
+  <p class="linkToLog">Mon compte</p>
+  <p class="linkToLog">Se déconnecter</p>
+  <?php }
+  else
+  { ?>
+  <a href="login.php" class="linkToLog">Se connecter</a>
+  <a href="signup.php" class="linkToLog">S’inscrire</a>
+  <?php } ?>
 </header>
